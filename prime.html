@@ -1,0 +1,35 @@
+<html>
+    <h1>PRIME NUMBER</h1>
+    <body>
+            <script>
+        let num=13;
+        let flag=0;
+        if(num==0 || num==1)
+        {
+            document.write('not a prime');
+        }
+        else
+        {
+        for(let i = 2 ; i < num ; i++)
+        {
+            if(num%i==0)
+            {
+                document.write('it is not a prime');
+                flag=1;
+                break;
+            }
+        }
+    }
+                if(flag==0)
+                {
+                    document.write('it is a prime');
+                }
+                else
+                {
+                    document.write('not a prime');
+                }
+    </script>
+    </body>
+</html>
+
+
